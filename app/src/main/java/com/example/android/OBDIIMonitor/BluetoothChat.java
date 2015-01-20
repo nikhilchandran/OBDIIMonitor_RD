@@ -409,6 +409,11 @@ public class BluetoothChat<ImageView> extends Activity {
      * @param message  A string of text to send.
      */
     private void sendMessage(String message) {
+
+        Log.d( "++  Start ++", "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        Log.d( "++ Request", message);
+
+
         // Check that we're actually connected before trying anything
         if (mChatService.getState() != BluetoothChatService.STATE_CONNECTED) {
             Toast.makeText(this, R.string.not_connected, Toast.LENGTH_SHORT).show();
@@ -510,6 +515,7 @@ public class BluetoothChat<ImageView> extends Activity {
                 byte[] readBuf = (byte[]) msg.obj;
                 // construct a string from the valid bytes in the buffer
                 String readMessage = new String(readBuf, 0, msg.arg1);
+                Log.d( "++ readMessage", readMessage);
 
 
 
@@ -525,6 +531,10 @@ public class BluetoothChat<ImageView> extends Activity {
 
 	        				PID = Integer.parseInt(bytes[0].trim(), 16);
 	        				value = Integer.parseInt(bytes[1].trim(), 16);
+
+                            Log.d( "++ PID", PID+"");
+                            Log.d( "++ value", value+"");
+
 	        				}
 
 
@@ -812,11 +822,11 @@ public class BluetoothChat<ImageView> extends Activity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            pDialog = new ProgressDialog(BluetoothChat.this);
+          /*  pDialog = new ProgressDialog(BluetoothChat.this);
             pDialog.setMessage("Working ...");
             pDialog.setIndeterminate(false);
             pDialog.setCancelable(false);
-            pDialog.show();
+            pDialog.show();*/
         }
 
         private writetoFileAsync(String mfilename, String msensorArray) {
@@ -829,8 +839,8 @@ public class BluetoothChat<ImageView> extends Activity {
 
             //   db.addContact(new UserData(mkey, mvalue));
             //   writetoFile( filename,  sensorArray);
-            writetoFile(filename, sensorArray);
-
+          //  writetoFile(filename, sensorArray);
+            Log.d( filename, sensorArray);
 
             return null;
         }
@@ -840,7 +850,7 @@ public class BluetoothChat<ImageView> extends Activity {
             super.onPostExecute(s);
 
 
-            pDialog.dismiss();
+           // pDialog.dismiss();
         }
     }
 

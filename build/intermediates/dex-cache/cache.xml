@@ -2,6 +2,20 @@
 <items version="2" >
 
     <item
+        jar="/home/rogy/Inapp/inappProjects/OBDIIMonitor_RD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/home/rogy/Inapp/inappProjects/OBDIIMonitor_RD/app/build/intermediates/pre-dexed/debug/classes-fcdf4454eec2c2e436e77ddf55e030191699108b.jar" />
+    </item>
+    <item
+        jar="/home/rogy/Inapp/inappProjects/OBDIIMonitor_RD/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/rogy/Inapp/inappProjects/OBDIIMonitor_RD/app/build/intermediates/pre-dexed/debug/classes-722604c88595dd35b6018dc468cd43c70f797e7a.jar" />
+    </item>
+    <item
         jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -14,27 +28,6 @@
         revision="21.1.2"
         sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
         <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/classes-c85c7b8caca7aa3e8ca915198f8b0235a3bd0e3a.jar" />
-    </item>
-    <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/httpclient-4.3.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-002fd10c73d926a339eef70854739d7416cc3ac7.jar" />
-    </item>
-    <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/fluent-hc-4.3.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="352d90a003c85819b6e007ac9dcd9967c62da1f9">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/fluent-hc-4.3.6-128413a6074f52a7d96f717833a75f62a8a7817d.jar" />
-    </item>
-    <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/commons-codec-1.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/commons-codec-1.6-a154277454de91e7dfa7699a706b073dc1ccb596.jar" />
     </item>
     <item
         jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
@@ -51,32 +44,18 @@
         <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-fcb54196e90f0d8a7e5bbbbfcf1e135c34ba93ad.jar" />
     </item>
     <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/httpmime-4.3.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/httpmime-4.3.6-ba5d3ad9ba4d4e0af4a7ad838b79e54195e0c382.jar" />
-    </item>
-    <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/httpcore-4.3.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/httpcore-4.3.3-f9fcf508f0ee31e0ade61d684fe24fd8897c3567.jar" />
-    </item>
-    <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/httpclient-cache-4.3.6.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="fe96f9012712b5aa743769037a2e00fc6ee4b80f">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.6-d3758b9badcc0209e3bb3a44d47129b444924a8b.jar" />
-    </item>
-    <item
         jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
         <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-39d2efec33c4855e3dbbc4c11fc53eb5ab9a19a3.jar" />
+    </item>
+    <item
+        jar="/home/rogy/Inapp/inappProjects/OBDIIMonitor_RD/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/rogy/Inapp/inappProjects/OBDIIMonitor_RD/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6f86aa3210f497ff227746e1ef172310d408feb3.jar" />
     </item>
     <item
         jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
@@ -91,13 +70,6 @@
         revision="20.0.0"
         sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
         <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/classes-c85c7b8caca7aa3e8ca915198f8b0235a3bd0e3a.jar" />
-    </item>
-    <item
-        jar="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/libs/commons-logging-1.1.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
-        <dex dex="/home/rogy/Inapp/Development_Software/OBDIIMonitor/app/build/intermediates/pre-dexed/debug/commons-logging-1.1.3-765f9ba716b7df3134ef3e90be1bea1e01f2a153.jar" />
     </item>
 
 </items>

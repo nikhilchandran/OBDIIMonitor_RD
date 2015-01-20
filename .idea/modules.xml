@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OBDIIMonitor.iml" filepath="$PROJECT_DIR$/OBDIIMonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OBDIIMonitor_RD.iml" filepath="$PROJECT_DIR$/OBDIIMonitor_RD.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
